@@ -1,0 +1,26 @@
+{
+  "name": "solana-raydium-balances",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@bitdeep:bitdeep/solana-raydium-balances.git",
+  "author": "WΞNDΞL <19378023+bitdeep@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/borsh": "^0.2.3",
+    "@project-serum/serum": "0.13.47",
+    "@saberhq/solana-contrib": "^1.12.20",
+    "@solana/spl-token": "0.1.8",
+    "@solana/web3.js": "^1.31.0",
+    "bignumber.js": "^9.0.2",
+    "cross-fetch": "^3.1.4",
+    "lodash-es": "^4.17.21",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "dev": "ts-node ./index.ts",
+    "live": "nodemon index.ts"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.4"
+  }
+}
